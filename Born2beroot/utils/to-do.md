@@ -27,10 +27,18 @@ This project is create with operating system Debian.
 - Adicione no campo `Full name for the new user` como: `gde-jesu` e depois selecione uma senha para ele.
 - Você pode selecione o `Clock` como central mas não faz tanta diferença selecionar qualquer outro.
 
-**Step 3:**
+### Criar e configurar partições e LVMGroup (+ Bonus)
 - Na parte de `Partition disks` selecione `Manual`
-
-### Criar e configurar partições (+ Bonus)
+- Criar uma nova partição primaria com 500MB para o boot
+- Criar uma nova partição logica com o valor máximo
+  - Configurar partição lógica [ Configure encrypted volumes ]
+  - Adicionar uma senha para a encriptação
+- Gerenciar volumes lógicos clicando em `Configure the Logical Volume Manager`
+  - Criar novo grupo clicando em `Create logical volume`      
+  - Nome do grupo: LVMGroup
+  - Selecionar `LVMGroup`
+    - Volumes e seus espaços de armazenamento
+      - Nome: **root** | Armazenamento: **2GB**
 
 ### Instalar e configurar o sudo
 
