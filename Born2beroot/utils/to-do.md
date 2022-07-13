@@ -2,6 +2,28 @@
 
 This project is create with operating system Debian. 
 
+## Criar Máquina virtual
+
+### Criar e configurar partições (+ Bonus)
+
+### Instalar e configurar o sudo
+
+### Instalar o VIM
+
+### Instalar e configurar o Firewall (UFW)
+
+### Instalar e configurar o SSH
+
+### Configurar política de senhas
+
+### Configurar política de sudo
+
+## Criar script
+
+## Criar website
+
+## Avaliação
+
 - A SSH service will be running on port 4242 only. For security reasons, it must not be possible to connect using SSH as root.
 - You have to configure your operating system with the UFW firewall and thus leave only port 4242 open.
 - The hostname of your virtual machine must be your login ending with 42 (e.g., wil42). You will have to modify this hostname during your evaluation.
