@@ -4,6 +4,32 @@ This project is create with operating system Debian.
 
 ## Criar Máquina virtual
 
+**Step 1:**
+- Abrir o `VirtualBox` clicar no botão new, adicionar um nome para a máquina virtual e selecionar a pasta `goinfre` como local de armazenamento da sua VM.
+- Selecionar o tipo da VM como `Linux` e a versão como `Debian (64-bit)`.
+- Deixar tamanho da memória ram como padrão (1024 MB)
+- Selecionar `Create a virtual hard disk now`
+- Selecionar `VDI (VirtualBox Disk Image)`
+- Selecionar `Dynamically allocated`
+- Deixar tamanho de disco como padrão: `8.00 GB`
+- Clicar em `Create`
+- Clicar em `Start` para executar sua VM
+- Baixar o sistema operacional que nesse caso é o Debian clicando [aqui](https://www.debian.org/download).
+- Selecionar o sistema operacional que foi baixado e depois clicar em `start`.
+
+**Step 2:**
+- Selecionar `Install`
+- Como idioma você pode selecionar: `English` e como localização: `United States`
+- Como keyboard você pode usar: `Brazilian`
+- Como Hostname você precisa deixar no seguinte formato: `seu-usuário-da-intra42`
+- Você pode pular a etapa de `Domain name` apenas clicando no Enter
+- Adicione uma semana no `Root password`
+- Adicione no campo `Full name for the new user` como: `gde-jesu` e depois selecione uma senha para ele.
+- Você pode selecione o `Clock` como central mas não faz tanta diferença selecionar qualquer outro.
+
+**Step 3:**
+- Na parte de `Partition disks` selecione `Manual`
+
 ### Criar e configurar partições (+ Bonus)
 
 ### Instalar e configurar o sudo
